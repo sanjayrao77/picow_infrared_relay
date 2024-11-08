@@ -1,0 +1,21 @@
+
+#define WIFI_SSID	"SSIDHERE"
+#define WIFI_PASSWORD	"SSIDPASSWORDHERE"
+#define ISSTATICIP	1
+#if ISSTATICIP
+#define STATICIP_ADDR	(192,168,1,7)
+#define STATICIP_MASK	(255,255,255,0)
+#define STATICIP_GATEWAY	(192,168,1,1)
+#endif
+
+#define UDP_PASSWORD8 "password"
+#define UDP_PORT 3800
+#define UDP_PORT_STRING "3800"
+#define KEEPALIVE_IP0	192
+#define KEEPALIVE_IP1	168
+#define KEEPALIVE_IP2	1
+#define KEEPALIVE_IP3	8
+// set KEEPALIVE_UDP_PORT to 0 to disable 3 second keepalive UDP packets
+#define KEEPALIVE_UDP_PORT 3800
+#define IR_PIN	(22)
+
